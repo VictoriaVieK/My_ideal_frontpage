@@ -1,27 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
     <head>
         <meta charset="utf-8">
         <title>My first webpage</title>
         <meta name="description" content="Det som står under overskiften på 
         google-søket">
+        <link rel="stylesheet" href="./style.css">
     </head>
     
+
     <body>
         <header>
-            <img src="./assets/XXL_logo.svg" width="150">
+            <div class="logo-container"><img src="./assets/XXL_logo.svg" class="logo"></div>
         </header>
+
         <main>
-            <h1>first headline</h1>
-            <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">Visit this site</a>
-            <article>
-                Hei alle sammen
-            </article>
-            <h2>Secong headline</h2>
-            <img src="./assets/Arkitektur.jpg">
-            <p>
-                Dette er en paragraph
-            </p>
+
+            <section class="first-headline">
+                <h1>first headline</h1>
+            </section>
+
+            <section>
+                <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">Visit this site</a>
+                <article>
+                    Hei alle sammen
+                </article>
+            </section>
+
+            <section>
+                <h2>Secong headline</h2>
+                <article class="img-container">
+                    <img src="./assets/Arkitektur.jpg" class="main_pic">
+                    <p class="text-1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Modi nihil est officiis cupiditate libero tempore alias id 
+                    itaque fugit exercitationem corrupti quasi debitis unde, obcaecati, 
+                    aliquid nostrum iste! Blanditiis explicabo in, culpa dicta eius 
+                    animi ea aliquam repellendus officia minus iusto, exercitationem eligendi 
+                    laudantium odit sed vitae magni excepturi tempora delectus. Excepturi 
+                    sed tenetur natus repellendus facere odio veniam ex provident, ipsa 
+                    eveniet sint dicta est ab molestiae voluptatem fuga inventore unde ratione. 
+                    Tempora voluptatem eum rem fuga consectetur harum sint non magnam eligendi, 
+                    ratione molestiae iste ducimus accusamus asperiores, dolor earum. Fugit nihil 
+                    doloremque dolorem, voluptate expedita eligendi non!
+                    </p>
+                </article>
+            </section>
+                
+            <section class="sticky-box">
+                <p class="first_p">
+                    Dette er en paragraph
+                </p>
+            </section>
+
+            <section>
+                <p>
+                    Dette er en annen
+                </p>
+
+                <p>
+                    Dette er en tredje
+                </p>
+            </section>
+
+            <section>
+                <div class = "my-box">
+                    <div class = "inside-box">
+                        <p>Dette er en boks</p>
+            </section>
+
+            <section class="centered">
+                <div class="box1">1<bo>
+
+            </section>
+
+
         </main>
+
     </body>
 </html>
